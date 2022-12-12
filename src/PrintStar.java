@@ -1,11 +1,14 @@
 import java.util.Scanner;
 public class PrintStar {
-    public static void main(String[] args){
+    /**
+     *the main method that gets and answers accordingly to user input
+     */
+    public static void main(String[] args){ //requirement 1: main method to run the program
         Scanner in = new Scanner(System.in);
         int column =0;
         int row = 0;
         System.out.println("Do you want to print stars? (yes or no): ");
-        String response = in.nextLine();
+        String response = in.nextLine(); //requirement 6: user input
         if(response.equals("no")){
             System.out.print("Bye!");
         }else{
